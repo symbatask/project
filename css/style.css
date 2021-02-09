@@ -428,7 +428,7 @@ button {
     width: 100%;
     justify-content: flex-start;
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .product, .product--pink, .product--yellow, .product--green, .product--red, .product--orange, .product--blue {
@@ -627,6 +627,11 @@ button {
 
 .footer__link:hover {
     color: #283189;
+}
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .events__container {
