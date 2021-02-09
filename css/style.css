@@ -569,63 +569,58 @@ button {
     color: #283189;
 }
 
-.card_logo img {
-    height: 150px;
-    width: 250px;
-}
 
-.container {
-    max-width: 1110px;
-    margin: 0 auto;
-}
 
-.card__container {
+
+.events__container {
     max-width: 1200px;
     padding-top: 60px;
-
 }
 
 .grid_col6 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
     grid-column-gap: 45px;
 }
 
-.card_logo {
+.events__logo {
     margin-bottom: 20px;
+    height: 150px;
+    width: 250px;
 }
 
-.card_title {
-    height: 120px;
+.events__title {
+    height: 70px;
     color: #283189;
 }
 
-.card_title span {
+.events__title span {
     color: green;
 }
 
-.card_day {
-    font-size: 40px;
-
-}
-
-.cards_date {
+.events__date {
     display: flex;
     color: #283189;
 
 }
 
-.card_month_year {
+.events__day {
+    font-size: 40px;
+    margin-right: 5px;
+
+}
+
+.events__month__year {
     margin-bottom: 40px;
 }
 
-.card_time {
+.events__time {
     font-size: 40px;
     color: #283189;
     margin-left: 15px;
 }
 
-.btn {
+.events__btn {
     background-color: dodgerblue;
     padding: 15px 15px;
     color: white;
@@ -635,11 +630,11 @@ button {
     justify-content: center;
 }
 
-.btn:hover {
+.events__btn:hover {
     background-color: #283189;
 }
 
-.btn svg {
+.events__btn svg {
     margin-left: 5px;
     width: 30px;
     height: 30px;
