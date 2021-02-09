@@ -13,22 +13,25 @@
           rel="stylesheet">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 <header class="header">
-    <div class="container header__container">
-        <a href="#" class="logo">
+    <div class="container header__container flex-wrapper">
 
-
-        </a>
         <nav class="nav-bar">
-
             <a href="#table" class="header__link menu__item">ЦЕНЫ</a>
             <a href="#map" class="header__link menu__item">КАРТА</a>
             <a href="#columns" class="header__link menu__item">НАБОР УЧАСТНИКА</a>
             <a href="#team" class="header__link menu__item">НАША КОМАНДА</a>
+            <a href="#events" class="header__link menu__item">СОБЫТИЯ</a>
             <a href="#footer" class="header__link menu__item">КОНТАКТЫ</a>
         </nav>
+        <div class="menu-btn">
+       <span>
+
+       </span>
+        </div>
         <nav class="nav-bar">
             <a href="english.html" class="header__link menu__item">EN</a>
             <a href="#" class="header__link menu__item"><img src="./" alt=""></a>
@@ -140,32 +143,32 @@
                 <div class="slider">
                     <input type="radio" name="slide_switch" id="id1"/>
                     <label for="id1">
-                        <img src="http://yarkocross.kz/userdata/photos/photos_1054/b_image.jpg" width="100"/>
+                        <img src="http://yarkocross.kz/userdata/photos/photos_1054/b_image.jpg" width="100"class="slide-img"/>
                     </label>
                     <img src="http://yarkocross.kz/userdata/photos/photos_1054/b_image.jpg"/>
 
                     <!--Lets show the second image by default on page load-->
                     <input type="radio" name="slide_switch" id="id2" checked="checked"/>
                     <label for="id2">
-                        <img src="http://yarkocross.kz/userdata/photos/photos_35/b_image.jpg" width="100"/>
+                        <img src="http://yarkocross.kz/userdata/photos/photos_35/b_image.jpg" width="100"class="slide-img"/>
                     </label>
                     <img src="http://yarkocross.kz/userdata/photos/photos_35/b_image.jpg"/>
 
                     <input type="radio" name="slide_switch" id="id3"/>
                     <label for="id3">
-                        <img src="http://yarkocross.kz/userdata/photos/photos_1086/b_image.jpg" width="100"/>
+                        <img src="http://yarkocross.kz/userdata/photos/photos_1086/b_image.jpg" width="100"class="slide-img"/>
                     </label>
                     <img src="http://yarkocross.kz/userdata/photos/photos_1086/b_image.jpg"/>
 
                     <input type="radio" name="slide_switch" id="id4"/>
                     <label for="id4">
-                        <img src="http://yarkocross.kz/userdata/photos/photos_88/b_image.jpg" width="100"/>
+                        <img src="http://yarkocross.kz/userdata/photos/photos_88/b_image.jpg" width="100"class="slide-img"/>
                     </label>
                     <img src="http://yarkocross.kz/userdata/photos/photos_88/b_image.jpg"/>
 
                     <input type="radio" name="slide_switch" id="id5"/>
                     <label for="id5">
-                        <img src="http://yarkocross.kz/userdata/photos/photos_89/b_image.jpg" width="100"/>
+                        <img src="http://yarkocross.kz/userdata/photos/photos_89/b_image.jpg" width="100"class="slide-img"/>
                     </label>
                     <img src="http://yarkocross.kz/userdata/photos/photos_89/b_image.jpg"/>
                 </div>
@@ -181,7 +184,7 @@
         <div class="map__row">
             <div class="map__img">
                 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab370b86645855567ef4ac756289e21c7d6aa43942718a1352ebf895b81b3b699&amp;source=constructor"
-                        width="550" height="450" frameborder="0"></iframe>
+                        width="500" height="400" frameborder="0" class="map__item"></iframe>
             </div>
             <div class="map__inner">
                 <h1 class="section__title background">
@@ -274,9 +277,9 @@
 </section>
 <section class="columns" id="columns">
     <div class="container">
-        <div class=" section__title numbers__title">
+        <h1 class=" section__title numbers__title">
             НАБОР УЧАСТНИКА
-        </div>
+        </h1>
         <ul>
             <i class='fa fa-shopping-cart'>
                 <span class='counter'></span>
@@ -378,11 +381,15 @@
     </div>
 </section>
 
-<section class="events">
+<section class="events " id="events">
+
     <div class="container events__container">
+        <h1 class="section__title numbers__title">
+            ПРЕДСТОЯЩИЕ СОБЫТИЯ
+        </h1>
         <div class="events__content grid_col6">
 
-            <div class="event__item">
+            <div class="event__item ">
                 <img src="https://nightrun10km.runc.run/uploads/race_landing_menu_logos_ru/NightRun_logo_clr_2.svg"
                      alt="" class="events__logo">
                 <h2 class="events__title">Ночное шоу,<br>Парк Панфилова</h2>
@@ -474,7 +481,13 @@
                     ОТПРАВИТЬ
                 </button>
             </div>
+            <div class="footer__checkbox">
+                <input type="checkbox" id="menu-checkbox"/>
+                <label id="burger" for="menu-checkbox">
+                    <span> Я принимаю все условия</span>
+                </label>
 
+            </div>
             <div class="contact">
                 <nav class="nav-bar">
 
@@ -482,10 +495,10 @@
                     <a href="#map" class="footer__link menu__item">КАРТА</a>
                     <a href="#columns" class="footer__link menu__item">НАБОР УЧАСТНИКА</a>
                     <a href="#team" class="footer__link menu__item">НАША КОМАНДА</a>
-                    <a href="#footer" class="footer__link menu__item">КОНТАКТЫ</a>
+                    <a href="#events" class="footer__link menu__item">СОБЫТИЯ</a>
 
                 </nav>
-                <nav class="nav-bar">
+                <nav class="nav-bar footer__nav">
                 <a href="#" class="menu__item">
                     <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.5 0C8.69375 0 0 8.69375 0 19.5C0 30.3062 8.69375 39 19.5 39C30.3062 39 39 30.3062 39 19.5C39 8.69375 30.3062 0 19.5 0ZM23.9688 19.5H21.0437C21.0437 24.1313 21.0437 29.8188 21.0437 29.8188H16.7375C16.7375 29.8188 16.7375 24.2125 16.7375 19.5H14.7063V15.8438H16.7375V13.4875C16.7375 11.8625 17.4688 9.18125 21.0437 9.18125H24.2125V12.7562C24.2125 12.7562 22.3438 12.7562 21.9375 12.7562C21.6125 12.7562 21.0437 12.9187 21.0437 13.7312V15.8438H24.2937L23.9688 19.5Z" fill="#4E71A8"></path>
