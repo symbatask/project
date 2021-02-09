@@ -569,6 +569,79 @@ button {
     color: #283189;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+.events__container {
+    max-width: 1200px;
+    padding-top: 60px;
+}
+
+.grid_col6 {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-column-gap: 45px;
+}
+
+.events__logo {
+    margin-bottom: 20px;
+    height: 150px;
+    width: 250px;
+}
+
+.events__title {
+    height: 70px;
+    color: #283189;
+}
+
+.events__title span {
+    color: green;
+}
+
+.events__date {
+    display: flex;
+    color: #283189;
+
+}
+
+.events__day {
+    font-size: 40px;
+    margin-right: 5px;
+
+}
+
+.events__month__year {
+    margin-bottom: 40px;
+}
+
+.events__time {
+    font-size: 40px;
+    color: #283189;
+    margin-left: 15px;
+}
+
+.events__btn {
+    background-color: dodgerblue;
+    padding: 15px 15px;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.events__btn:hover {
+    background-color: #283189;
+}
+
+.events__btn svg {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+>>>>>>> e3e4590f5c29cc61d89299b08a03c052270f4b52
 
 
 
