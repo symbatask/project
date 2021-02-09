@@ -377,7 +377,7 @@ border: white solid 1px;
     width: 100%;
     justify-content: flex-start;
     display: flex;
-    flex-flow: row wrap;
+
 }
 
 .product, .product--pink, .product--yellow, .product--green, .product--red, .product--orange, .product--blue {
