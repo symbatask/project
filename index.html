@@ -17,16 +17,13 @@
 <body>
 <header class="header">
     <div class="container header__container">
-        <a href="#" class="logo">
 
-
-        </a>
         <nav class="nav-bar">
-
             <a href="#table" class="header__link menu__item">ЦЕНЫ</a>
             <a href="#map" class="header__link menu__item">КАРТА</a>
             <a href="#columns" class="header__link menu__item">НАБОР УЧАСТНИКА</a>
             <a href="#team" class="header__link menu__item">НАША КОМАНДА</a>
+            <a href="#events" class="header__link menu__item">СОБЫТИЯ</a>
             <a href="#footer" class="header__link menu__item">КОНТАКТЫ</a>
         </nav>
         <nav class="nav-bar">
@@ -274,9 +271,9 @@
 </section>
 <section class="columns" id="columns">
     <div class="container">
-        <div class=" section__title numbers__title">
+        <h1 class=" section__title numbers__title">
             НАБОР УЧАСТНИКА
-        </div>
+        </h1>
         <ul>
             <i class='fa fa-shopping-cart'>
                 <span class='counter'></span>
@@ -378,11 +375,15 @@
     </div>
 </section>
 
-<section class="events">
+<section class="events " id="events">
+
     <div class="container events__container">
+        <h1 class="section__title numbers__title">
+            ПРЕДСТОЯЩИЕ СОБЫТИЯ
+        </h1>
         <div class="events__content grid_col6">
 
-            <div class="event__item">
+            <div class="event__item ">
                 <img src="https://nightrun10km.runc.run/uploads/race_landing_menu_logos_ru/NightRun_logo_clr_2.svg"
                      alt="" class="events__logo">
                 <h2 class="events__title">Ночное шоу,<br>Парк Панфилова</h2>
@@ -474,7 +475,13 @@
                     ОТПРАВИТЬ
                 </button>
             </div>
+            <div class="footer__checkbox">
+                <input type="checkbox" id="menu-checkbox"/>
+                <label id="burger" for="menu-checkbox">
+                    <span> Я принимаю все условия</span>
+                </label>
 
+            </div>
             <div class="contact">
                 <nav class="nav-bar">
 
@@ -482,7 +489,7 @@
                     <a href="#map" class="footer__link menu__item">КАРТА</a>
                     <a href="#columns" class="footer__link menu__item">НАБОР УЧАСТНИКА</a>
                     <a href="#team" class="footer__link menu__item">НАША КОМАНДА</a>
-                    <a href="#footer" class="footer__link menu__item">КОНТАКТЫ</a>
+                    <a href="#events" class="footer__link menu__item">СОБЫТИЯ</a>
 
                 </nav>
                 <nav class="nav-bar">

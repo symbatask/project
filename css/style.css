@@ -17,6 +17,11 @@ a {
     max-width: 1200px;
 }
 
+
+
+
+
+
 .header {
     position: absolute;
     width: 100%;
@@ -546,6 +551,15 @@ button {
     display: flex;
     justify-content: center;
 }
+.footer__checkbox{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer__checkbox span{
+   margin-left: 10px;
+}
 
 .footer__link {
     text-transform: uppercase;
@@ -615,6 +629,9 @@ button {
     font-size: 40px;
     color: #283189;
     margin-left: 15px;
+}
+.events__content{
+    margin-top: 50px;
 }
 
 .events__btn {
