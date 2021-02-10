@@ -609,6 +609,7 @@ button {
 .footer__link {
     text-transform: uppercase;
     font-weight: bold;
+    margin-right:10px;
 }
 
 .contact {
