@@ -255,3 +255,52 @@
     width: 100%;
 }
 }
+
+@media  (max-width: 540px){
+    .container{
+        max-width:none;
+    }
+    .header__link{
+        font-size:14px;
+
+    }
+
+
+    header{
+        background: none;
+    }
+    .section__desc{
+        font-size:14px;
+    }
+    .section__title{
+        font-size: 35px;
+    }
+    .number__p {
+        font-size: 50px;
+    }
+
+    .number__p span {
+        font-size: 35px;
+    }
+    .img-numbers{
+        width: 42px;
+        height: 45px;
+        left: 10px;
+        top: -7px;
+    }
+    .img-contact{
+        left: 40px;
+    }
+    .img-shop{
+        left: 40px;
+    }
+    .img-heart{
+        left: 55px;
+    }
+    .number__desc{
+        font-size: 18px;
+    }
+    .inner{
+        width: 100%;
+    }
+}
